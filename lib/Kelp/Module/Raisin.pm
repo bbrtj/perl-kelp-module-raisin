@@ -79,6 +79,12 @@ Kelp::Module::Raisin - Raisin integration with Kelp
 
 This is a very straightforward module that integrates the L<Kelp> framework with the L<Raisin> API framework using L<Kelp::Module::Symbiosis>. See the documentation for L<Kelp::Module::Symbiosis> and L<Kelp::Module::Symbiosis::Base> for a full reference on how this module behaves.
 
+=head1 MODULE INFORMATION
+
+This module name is I<'raisin'>. You can refer to it with that name in Symbiosis methods - I<loaded> and I<mounted>. There shouldn't be a need to, since it will be mounted automatically if you specify L</mount> in configuration.
+
+The module class itself does not expose anything particularly interesting, it is just a wrapper for Raisin.
+
 =head1 METHODS INTRODUCED TO KELP
 
 =head2 raisin
